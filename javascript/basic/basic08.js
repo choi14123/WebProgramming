@@ -5,5 +5,4 @@
 // x != y x와 y의 값과 자료형이 다르면 true, 아니면 false
 // x !== y x와 y의 값과 자료형이 다르면 true, 아니면 false
 
-
 console.log(10 == '10');
