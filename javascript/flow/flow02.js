@@ -1,14 +1,9 @@
-let num = 0;
 
-if (num > 0) {
-    console.log("양수입니다.")
+// num에 있는 값은 짝수인가요? 홀수인가요?
+let num = 12
+// if(num 을 2로 나누어 나머지를 비교한다.) { '짝수입니다.'}
+if(num % 2 == 0) {  // 조건식이 참인 경우 실행
+    console.log('짝수입니다.');
+} else {            // 조건식이 거짓인 경우 실행
+    console.log('홀수입니다.');
 }
-else if (num == 0) {
-    console.log("0입니다.")
-}
-else if (num < 0) {
-    console.log("음수입니다.")
-}
-
-let beverage = num > 0 ? "양수" :(num == 0 ? '0' : 음수);
-console.log(beverage);

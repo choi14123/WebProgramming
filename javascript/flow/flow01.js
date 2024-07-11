@@ -1,8 +1,13 @@
-let num = 10;
+// 조건문
+if(10 >= 3) {
+    console.log('10은 3보다 큽니다.');
+    console.log('10은 3보다 큽니다.');
+    console.log('10은 3보다 큽니다.');
+}
 
-if (num % 2 == 0){
-    console.log("짝수")
-}
-else {
-    console.log("홀수")
-}
+if(10 <= 3) 
+    console.log('10은 3보다 작거나 같습니다 1.');
+console.log('10은 3보다 작거나 같습니다 2.');
+console.log('10은 3보다 작거나 같습니다 3.');
+
+console.log('프로그램을 종료합니다!');

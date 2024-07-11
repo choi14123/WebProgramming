@@ -1,6 +1,20 @@
-let num1 = 10;
-let str1 = '10';
+// 이항 연산자
+// let sum = 10 + 20;
 
-if (String(num1) === str1){
-    console.log("같습니다.");
-}
+// 단항 연산자
+let num = 10;
+let sum = 0;
+// sum = sum + num++;
+sum += num++;
+console.log(sum + ", " + num);
+
+sum = 0;
+num = 10;
+// sum = sum + ++num;
+sum += ++num;
+console.log(sum + ", " + num);
+
+let num2 = 10++;
+console.log(num2);
+
+

@@ -1,10 +1,8 @@
-let score = 85;
-let score1 = 90;
+// 산술 연산자
+// num1 / num2 => 나눈 값이 나온다.
+// num1 % num2 => 나머지
 
-let grade = score >= 90 ? 'A 학점' : 'B 학점';
-let grade1 = score1 >= 90 ? 'A 학점' : 'B 학점';
-
-
-console.log(grade);
-
-console.log(grade1);
+let num1 = 10;
+let num2 = 3;
+console.log(Math.floor(num1 / num2));
+console.log(num1 % num2);

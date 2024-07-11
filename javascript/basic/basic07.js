@@ -1,15 +1,10 @@
-let kor = [];
-let mat = [35,70, 90, 80];
-let array = [35,"asd", 90, 80];
+let bool1 = true;
+let bool2 = false;
+console.log(bool1);
+console.log(bool2);
 
-console.log(kor[0]);
+let bool3 = 10 > 3;
+let bool4 = 10 < 3;
+console.log(bool3);
+console.log(bool4);
 
-console.log(mat[0]);
-console.log(mat[1]);
-console.log(mat[2]);
-console.log(mat[3]);
-
-console.log(array[0]);
-console.log(array[1]);
-console.log(array[2]);
-console.log(array[4]);

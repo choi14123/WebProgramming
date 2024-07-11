@@ -1,8 +1,12 @@
-//비교 연산자
-// = 대입 연산자
-// x == y x와 y의 값이 같으면 true, 아니면 false
-// x === y x와 y의 값과 자료형이 같으면 true, 아니면 false
-// x != y x와 y의 값과 자료형이 다르면 true, 아니면 false
-// x !== y x와 y의 값과 자료형이 다르면 true, 아니면 false
+let kor = [];
+let mat = [35, 70, 90, 50];
+// 방번호(index 번호)는 0부터 시작한다.
+console.log(mat[2]);
 
-console.log(10 == '10');
+let array = [123, 'abc', null, true];
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+
+console.log(array[-2]);
